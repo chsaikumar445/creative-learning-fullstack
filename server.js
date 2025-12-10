@@ -11,7 +11,7 @@ function demoTestHandler(req, res) {
 // Route using the handler
 app.get('/demo', demoTestHandler);
 
-app.get('/login', (req,res)=>{res.send('lOGIN PAGE')});
+app.get('/login', (req,res)=>{res.send('Updated code block')});
 
 app.get('/signup', (req,res)=>{res.send({
 'code':'204',
